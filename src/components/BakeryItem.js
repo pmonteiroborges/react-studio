@@ -23,7 +23,7 @@ export function BakeryItem(
             </img>
             <div className="bakery_item_body">
                 <h2>{data.name}</h2>
-                <p>{data.description}</p>
+                <p className="description">{data.description}</p>
                 <div className="price_cart">
                     <p>${data.price}</p>
                     <button onClick={onAddToCartClick}>Add to Cart</button>
